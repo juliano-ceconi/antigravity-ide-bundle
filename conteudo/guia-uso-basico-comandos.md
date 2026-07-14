@@ -1,6 +1,6 @@
 # Guia de Uso Fácil: Conversando e Trabalhando com sua IA
 
-Usar o **Anticaos** é muito parecido com conversar com um amigo pelo WhatsApp ou Telegram. Você digita suas necessidades em português do dia a dia e o seu assistente de IA cria as soluções, mostrando botões na tela para você acompanhar e autorizar cada passo.
+Usar o **Google Antigravity IDE** é muito parecido com conversar com um amigo pelo WhatsApp ou Telegram. Você digita suas necessidades em português do dia a dia e o seu assistente de IA cria as soluções, mostrando botões na tela para você acompanhar e autorizar cada passo.
 
 Aqui está tudo o que você precisa saber para começar a usar o assistente de forma leve e descomplicada.
 
@@ -23,7 +23,7 @@ Você também pode arrastar qualquer arquivo ou documento do seu computador dire
 
 ## O Fluxo Visual de Aprovação (Sem Medo de Errar!)
 
-O assistente do Anticaos é extremamente seguro porque ele nunca faz nada "escondido". Sempre que você pedir algo que envolva a criação de arquivos ou pastas, ele usará cards visuais na tela:
+O assistente do Antigravity IDE é extremamente seguro porque ele nunca faz nada "escondido". Sempre que você pedir algo que envolva a criação de arquivos ou pastas, ele usará cards visuais na tela:
 
 1.  **O Plano de Ação (Card de Proposta)**:
     *   A IA analisará seu pedido e mostrará um card chamado **Plano de Implementação (Implementation Plan)**.

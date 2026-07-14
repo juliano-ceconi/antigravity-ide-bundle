@@ -1,8 +1,8 @@
-# Guia de Introdução: Anticaos
+# Guia de Introdução: Google Antigravity IDE
 
 Imagine ter um assistente digital que não só responde suas perguntas, mas ajuda você a organizar seus arquivos, revisar textos, estruturar seu TCC, planejar projetos e criar planilhas de trabalho diretamente nas pastas do seu computador. 
 
-Esse é o **Anticaos**, uma inteligência artificial superinteligente e prestativa desenvolvida com base nos assistentes autônomos. Ele atua como um parceiro de trabalho e estudos altamente prático e autônomo.
+Esse é o **Google Antigravity IDE**, uma inteligência artificial superinteligente e prestativa desenvolvida pela equipe do **Google DeepMind**. Ele atua como um parceiro de trabalho e estudos altamente prático e autônomo.
 
 ---
 
@@ -10,7 +10,7 @@ Esse é o **Anticaos**, uma inteligência artificial superinteligente e prestati
 
 As inteligências artificiais tradicionais de chat apenas conversam e geram textos que você precisa copiar e colar manualmente. 
 
-O Anticaos vai muito além:
+O Antigravity IDE vai muito além:
 1. **Ele entende o seu projeto**: Se você abrir uma pasta de estudos, ele lê seus resumos e anotações para saber exatamente o que você está fazendo.
 2. **Ele cria e edita arquivos para você**: Precisa criar a estrutura dos capítulos de um trabalho acadêmico ou uma tabela de tarefas? Ele cria o arquivo e escreve o conteúdo direto na sua pasta.
 3. **Segurança total**: Ele nunca altera nada no seu computador sem a sua aprovação explícita. Você sempre acompanha e autoriza tudo de forma visual.
