@@ -25,7 +25,7 @@ O Okam ajuda a criar e gerenciar o arquivo `AGENTS.md` do seu projeto. Esse arqu
 O Okam implementa um sistema de Wiki em Markdown estruturado sob o formato **OKF (Open Knowledge Format)**. Sempre que o Antigravity resolver um problema complexo ou tomar uma decisão importante, essa informação é registrada na pasta `_Conhecimento/Wiki` com metadados padronizados. O agente consulta esse índice antes de iniciar novas tarefas, evitando redescobrir soluções ou repetir os mesmos erros do passado.
 
 ### 3. Git Hooks de Segurança (Antivazamento de Segredos)
-O Okam instala de forma simples hooks de commit (`git hooks`) no seu repositório local. Antes que qualquer commit seja finalizado, o Okam roda varreduras silenciosas para garantir que o Antigravity IDE não inclua chaves de API do Gemini (`AIzaSy...`), senhas ou tokens privados em arquivos que possam ser enviados ao GitHub.
+O Okam instala de forma simples hooks de commit (`git hooks`) no seu repositório local. Antes que qualquer commit seja finalizado, o Okam roda varreduras silenciosas para garantir que o Antigravity IDE não inclua senhas, tokens privados ou dados confidenciais em arquivos que possam ser enviados ao GitHub.
 
 ### 4. Gestão de Habilidades Extra (`skills`)
 Se o seu projeto exigir tarefas recorrentes complexas (como auditorias de acessibilidade, suítes de testes automatizados ou linting rígido), você pode usar o comando `okam new-skill` para criar e plugar scripts reutilizáveis que o Antigravity IDE usará sob demanda no seu workspace.
