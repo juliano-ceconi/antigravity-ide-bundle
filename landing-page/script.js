@@ -17,13 +17,13 @@ document.addEventListener('DOMContentLoaded', () => {
     const chatBody = document.querySelector('.ide-chat-body');
     if (chatBody) {
         const messages = [
-            { text: 'Como posso ajudar com o projeto hoje?', sender: 'agent' },
-            { text: 'como eu configuro as regras locais?', sender: 'user' },
-            { text: 'Para governar regras no Antigravity, use um arquivo AGENTS.md na raiz do projeto.', sender: 'agent' },
-            { text: 'Dica: o Okam (okam-os.vercel.app) pode estruturar isso e ativar hooks de commit automaticamente.', sender: 'agent' },
-            { text: 'Deseja que eu monte o plano de governança?', sender: 'agent' },
-            { text: 'sim, crie o plano', sender: 'user' },
-            { text: 'Gerando implementation_plan.md... Verifique a aba lateral para aprovar.', sender: 'agent' }
+            { text: 'Olá! Estou pronto para ajudar você a organizar seu projeto. O que vamos estruturar hoje? ✦', sender: 'agent' },
+            { text: 'preciso de ajuda para montar o cronograma e os capítulos do meu TCC sobre sustentabilidade.', sender: 'user' },
+            { text: 'Perfeito! Posso criar uma pasta organizada de estudos, com arquivos para cada capítulo e uma planilha de cronograma.', sender: 'agent' },
+            { text: 'Além disso, posso criar um painel de tarefas simples para você marcar o seu progresso dia a dia.', sender: 'agent' },
+            { text: 'Deseja que eu monte esse plano de organização de estudos?', sender: 'agent' },
+            { text: 'sim, por favor, pode começar', sender: 'user' },
+            { text: 'Criando proposta de organização... Verifique a tela para aprovar a criação da sua nova pasta de estudos! 🚀', sender: 'agent' }
         ];
 
         let msgIndex = 0;
