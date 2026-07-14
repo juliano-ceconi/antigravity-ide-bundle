@@ -32,18 +32,16 @@ Se o seu projeto exigir tarefas recorrentes complexas (como auditorias de acessi
 
 ---
 
-## Quick Start: Instalando o Okam no seu Workspace
+## Quick Start: Instalando o Okam usando o Antigravity IDE
 
-Para plugar o Okam no seu repositório de desenvolvimento e acelerar o Antigravity IDE:
+Para plugar o Okam no seu repositório de desenvolvimento de forma automatizada, você pode delegar a tarefa diretamente ao assistente da IDE.
 
-1.  Abra o terminal na pasta do seu projeto e instale o pacote globalmente via pip:
-    ```bash
-    pip install okam
-    ```
-2.  Inicialize a estrutura de governança interativamente:
-    ```bash
-    okam setup
-    ```
-3.  O assistente guiará você na criação do `AGENTS.md` e na ativação da Wiki de Conhecimento e dos Git hooks de segurança.
+Copie e cole o seguinte comando no chat lateral do seu **Antigravity IDE**:
+
+```text
+Instale o framework Okam via pip (pip install okam) no meu ambiente e depois execute o comando "okam setup" para inicializar a estrutura de governança, o arquivo AGENTS.md e os hooks de segurança contra vazamento de dados no meu repositório. Faça tudo de forma automatizada no terminal do Windows.
+```
+
+O assistente solicitará suas permissões visuais para rodar a instalação e a configuração inicial de forma automática no seu terminal.
 
 Acesse [okam-os.vercel.app](https://okam-os.vercel.app/) para ler a documentação completa e acessar templates prontos de regras de desenvolvimento.
