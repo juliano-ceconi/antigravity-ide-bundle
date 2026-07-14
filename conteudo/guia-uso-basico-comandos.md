@@ -1,43 +1,47 @@
-# Guia de Uso Básico do Google Antigravity IDE
+# Guia de Uso Fácil: Conversando e Trabalhando com sua IA
 
-Trabalhar com o **Google Antigravity IDE** é um processo interativo que combina conversação em linguagem natural com a aprovação de ações técnicas na interface do aplicativo. 
+Usar o **Google Antigravity IDE** é muito parecido com conversar com um amigo pelo WhatsApp ou Telegram. Você digita suas necessidades em português do dia a dia e o seu assistente de IA cria as soluções, mostrando botões na tela para você acompanhar e autorizar cada passo.
 
-Aqui está o fluxo básico de utilização para que você tire o máximo proveito do seu agente.
-
----
-
-## Interagindo pelo Chat da IDE
-
-Na barra lateral ou janela do chat do Antigravity IDE, você conversa diretamente com o agente em português:
-*   Para iniciar uma tarefa, descreva o seu objetivo:
-    > *"Crie uma página de contato para o meu site com formulário de nome, email e mensagem, validando se os campos estão preenchidos."*
-*   Você também pode mencionar arquivos específicos arrastando-os para a janela ou digitando `@nome_do_arquivo` para fornecer contexto explícito ao agente.
+Aqui está tudo o que você precisa saber para começar a usar o assistente de forma leve e descomplicada.
 
 ---
 
-## O Ciclo de Planejamento e Execução Visual
+## Como Iniciar uma Conversa no Chat
 
-Diante de solicitações complexas que exijam modificações de arquivos, o agente nunca executa as alterações de forma silenciosa. Ele gera artefatos de controle que aparecem como cards interativos na IDE:
+Na barra lateral do aplicativo, você verá uma janela de chat. Nela, você pode pedir qualquer ajuda de organização ou criação:
 
-1.  **Plano de Implementação (`implementation_plan.md`)**:
-    *   O agente gera um rascunho detalhando quais arquivos serão criados, modificados ou excluídos.
-    *   Um card visual com os botões **Aprovar (Proceed)** ou **Rejeitar (Reject)** aparecerá na IDE.
-    *   **Ação**: Revise os arquivos afetados no card e clique em **Aprovar** se a direção estiver correta. Se precisar ajustar algo, apenas digite no chat: *"Mude o plano para usar CSS vanilla em vez de Tailwind"*.
+*   **Para organizar seus estudos**:
+    > *"Monte um cronograma de estudos detalhado de 4 semanas para o meu TCC de administração. Crie um arquivo chamado cronograma.md com a tabela."*
+*   **Para criar materiais de apoio**:
+    > *"Escreva um resumo simples das principais ideias de sustentabilidade urbana para o meu trabalho escolar e salve em resumo.txt."*
+*   **Para ajudar a planejar tarefas**:
+    > *"Crie um arquivo de checklist simples chamado tarefas.md para eu gerenciar minha rotina pessoal diária."*
 
-2.  **Lista de Tarefas (`task.md`)**:
-    *   Assim que o plano é aprovado, a IDE exibe um painel de checklist ativo.
-    *   O agente vai marcando as etapas como concluídas conforme avança. Você pode acompanhar o progresso em tempo real pela barra de status.
-
-3.  **Relatório de Entrega (`walkthrough.md`)**:
-    *   Ao terminar, o agente consolida as mudanças efetuadas, explica as decisões tomadas e lista o que foi verificado.
-    *   A IDE exibirá um resumo visual para que você revise a entrega final.
+Você também pode arrastar qualquer arquivo ou documento do seu computador direto para o chat para que a IA o analise (por exemplo, arrastar as diretrizes do seu TCC para que ela monte o cronograma baseado nelas).
 
 ---
 
-## Modais de Permissão e Revisão de Código
+## O Fluxo Visual de Aprovação (Sem Medo de Errar!)
 
-Por motivos de segurança e integridade do seu computador, o Antigravity IDE opera sob o princípio do consentimento explícito:
+O assistente do Antigravity IDE é extremamente seguro porque ele nunca faz nada "escondido". Sempre que você pedir algo que envolva a criação de arquivos ou pastas, ele usará cards visuais na tela:
 
-*   **Aprovação de Comandos no Terminal**: Se o agente precisar rodar um teste ou instalar uma dependência, a IDE exibirá uma notificação perguntando se você autoriza a execução daquele comando específico.
-*   **Visualização de Diffs (Antes/Depois)**: Antes de aplicar uma alteração a um arquivo existente, a IDE abre uma aba de comparação de código (*diff view*), destacando as linhas removidas em vermelho e as adicionadas em verde. Você pode aceitar a modificação ou pedir ajustes.
-*   **Permissões de Diretórios**: Na primeira execução de leitura ou gravação fora do diretório do projeto, a IDE solicitará confirmação para garantir a proteção dos seus dados pessoais.
+1.  **O Plano de Ação (Card de Proposta)**:
+    *   A IA analisará seu pedido e mostrará um card chamado **Plano de Implementação (Implementation Plan)**.
+    *   Esse card lista exatamente o que ela vai fazer: *"Criar arquivo cronograma.md"*, *"Adicionar tabela de estudos"*, etc.
+    *   **O que fazer:** Se gostar da ideia, basta clicar no botão **Aprovar (Proceed)**. Se quiser mudar algo, apenas digite no chat: *"Mude o plano para incluir também os horários de estudos pela manhã"*.
+2.  **O Checklist de Tarefas**:
+    *   Assim que você aprova o plano, a IA mostra um checklist visual na tela.
+    *   Você verá a IA marcando os itens automaticamente conforme cria os arquivos. É muito satisfatório ver o robô trabalhando por você!
+3.  **O Relatório de Entrega**:
+    *   Quando ela termina, o chat exibe um resumo com links azuis clicáveis. 
+    *   Basta clicar no link para abrir o documento criado (como o seu cronograma ou resumo) direto na tela e conferir como ficou.
+
+---
+
+## Janelas de Segurança e Permissões
+
+Para proteger seu computador de qualquer comando indesejado, a IA sempre perguntará:
+
+*   **Autorização de Comandos**: Se a IA precisar rodar alguma ferramenta ou programa interno, a IDE exibirá uma caixinha na tela perguntando se você autoriza. Basta clicar em **Permitir**.
+*   **Visualização de Alterações (Antes/Depois)**: Se você pedir para a IA alterar um texto que você já escreveu, ela abrirá uma tela especial mostrando o que foi removido (em vermelho) e o que foi adicionado (em verde). Você revisa tudo antes de salvar definitivamente.
+*   **Permissão de Acesso**: Se você arrastar um arquivo que está em outra pasta do seu computador, a IA pedirá permissão visual para acessar aquela pasta externa.

@@ -1,38 +1,48 @@
 # Guia de Introdução: Google Antigravity IDE
 
-O **Google Antigravity IDE** é um assistente de inteligência artificial agentic (com capacidade de agência e ação autônoma) projetado pela equipe do **Google DeepMind**. Ele atua integrado ao seu ambiente de desenvolvimento como um parceiro de pair programming extremamente ativo e autônomo.
+Imagine ter um assistente digital que não só responde suas perguntas, mas ajuda você a organizar seus arquivos, revisar textos, estruturar seu TCC, planejar projetos e criar planilhas de trabalho diretamente nas pastas do seu computador. 
 
-Diferente de assistentes de chat tradicionais que apenas geram blocos de código para você copiar e colar, o Antigravity IDE atua diretamente sobre o seu repositório local. Ele entende a "alma" do seu projeto, planeja soluções, cria arquivos, aplica edições cirúrgicas e valida o próprio trabalho antes de dá-lo como concluído.
-
----
-
-## Os Três Pilares da Autonomia Agentic
-
-1.  **Leitura e Escrita Local**: O agente possui ferramentas para analisar estruturas de arquivos, buscar padrões de texto (com ripgrep) e escrever/modificar arquivos cirurgicamente sem reescrever trechos desnecessários.
-2.  **Terminal Integrado**: Ele consegue executar tarefas de compilação, testes, comandos Git e scripts diretamente no seu sistema operacional (geralmente sob aprovação explícita no Windows).
-3.  **Planejamento de Ciclo Fechado**: Diante de uma tarefa complexa, o agente primeiro pesquisa o contexto, escreve um plano de implementação detalhado (`implementation_plan.md`), aguarda sua aprovação e executa um loop de tarefas (`task.md`) com verificação local antes de entregar o resultado (`walkthrough.md`).
+Esse é o **Google Antigravity IDE**, uma inteligência artificial superinteligente e prestativa desenvolvida pela equipe do **Google DeepMind**. Ele atua como um parceiro de trabalho e estudos altamente prático e autônomo.
 
 ---
 
-## O Fluxo de Trabalho do Agente
+## Por que ele é diferente das outras IAs?
 
-O Antigravity IDE opera em fases claras para evitar modificações desnecessárias e reduzir o churn de código:
+As inteligências artificiais tradicionais de chat apenas conversam e geram textos que você precisa copiar e colar manualmente. 
+
+O Antigravity IDE vai muito além:
+1. **Ele entende o seu projeto**: Se você abrir uma pasta de estudos, ele lê seus resumos e anotações para saber exatamente o que você está fazendo.
+2. **Ele cria e edita arquivos para você**: Precisa criar a estrutura dos capítulos de um trabalho acadêmico ou uma tabela de tarefas? Ele cria o arquivo e escreve o conteúdo direto na sua pasta.
+3. **Segurança total**: Ele nunca altera nada no seu computador sem a sua aprovação explícita. Você sempre acompanha e autoriza tudo de forma visual.
+
+---
+
+## Os Três Pilares do seu Assistente
+
+*   **Leitura e Escrita Inteligente**: O assistente analisa suas pastas e edita seus documentos de forma precisa e rápida, poupando você de tarefas repetitivas.
+*   **Planejamento Claro**: Diante de uma tarefa maior, o assistente primeiro cria um **Plano de Implementação** detalhando o que ele vai fazer, aguarda você clicar em "Aprovar" e só então começa a trabalhar.
+*   **Execução Segura**: Você acompanha em tempo real a lista de tarefas que ele está completando por meio de uma barra de progresso visual.
+
+---
+
+## O Fluxo de Trabalho Passo a Passo
+
+O assistente trabalha de um jeito organizado e transparente para que você nunca se sinta perdido:
 
 ```
-[Pesquisa e Contexto] ➔ [Plano de Implementação] ➔ [Aprovação do Usuário] ➔ [Execução da Task] ➔ [Verificação Local] ➔ [Entrega & Handoff]
+[Suas Instruções] ➔ [Análise das Pastas] ➔ [Plano na Tela] ➔ [Sua Aprovação] ➔ [Execução da Tarefa] ➔ [Revisão Final]
 ```
 
-*   **Pesquisa**: O agente lê os arquivos afetados e deduz as regras locais do repositório.
-*   **Plano**: Ele cria um roteiro claro das mudanças e traz perguntas caso haja alguma ambiguidade.
-*   **Aprovação**: Você valida se a direção técnica está correta antes de qualquer escrita.
-*   **Execução**: O agente realiza as alterações de forma focada e cirúrgica.
-*   **Verificação**: Executa comandos de testes e builds para comprovar que nada foi quebrado.
-*   **Handoff**: Documenta o que foi feito no `walkthrough.md`.
+1.  **Instrução**: Você pede o que precisa usando o chat em português comum (ex: *"Me ajude a organizar meus estudos de TCC"*).
+2.  **Análise**: Ele analisa a pasta do seu projeto para entender o que já está pronto e o que falta fazer.
+3.  **Plano**: Ele gera uma proposta na tela mostrando quais arquivos ou textos serão criados ou alterados.
+4.  **Aprovação**: Você clica em **Aprovar** se estiver de acordo (ou pede ajustes no chat).
+5.  **Execução**: O assistente faz todo o trabalho de forma autônoma na sua pasta.
+6.  **Revisão**: Ele apresenta um resumo detalhado de tudo o que foi feito para você conferir.
 
 ---
 
-## Governança e Regras Locais
+## Central de Regras (AGENTS.md)
 
-O agente se molda ao seu estilo de programação a partir de arquivos de configuração locais:
--   **`AGENTS.md`**: Localizado na raiz do seu projeto ou globalmente, é a "constituição" que o agente é obrigado a ler no início de cada sessão. Ele dita os padrões de codificação, restrições e regras do projeto.
--   **Skills e Workflows**: O agente pode carregar capacidades modulares (ex: rotinas de testes, auditorias de segurança, etc.) baseadas na estrutura do repositório.
+Para que o assistente trabalhe exatamente do seu jeito, você pode criar um arquivo chamado `AGENTS.md` na pasta do seu projeto. Esse arquivo funciona como um manual de instruções pessoais para a IA. 
+Por exemplo, você pode escrever nele: *"Prefira sempre explicações simples", "Escreva em português brasileiro"* ou *"Organize minhas tabelas em ordem alfabética"*. A IA lerá essas regras e passará a segui-las rigorosamente a partir daquele momento.
