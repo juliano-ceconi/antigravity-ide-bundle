@@ -1,4 +1,4 @@
-# Tutorial de Instalação no Windows: Google Antigravity IDE
+# Tutorial de Instalação no Windows: Anticaos
 
 Instalar novos aplicativos às vezes pode parecer um pouco assustador, mas não se preocupe! Este guia foi feito para pegar você pela mão e ajudar a cruzar essa barreira inicial de um jeito simples, leve e sem complicações. 
 
@@ -19,14 +19,14 @@ Antes de abrir o aplicativo principal, precisamos preparar o seu computador com 
 
 ---
 
-## Passo 1: Baixando e Instalando o Antigravity IDE
+## Passo 1: Baixando e Instalando o Anticaos
 
 Agora que o terreno está pronto, vamos instalar o cérebro do nosso assistente:
 
-1.  Acesse a página oficial de [Download do Antigravity IDE](https://antigravity.google/download#antigravity-ide).
+1.  Acesse a página oficial de [Download do Anticaos](https://antigravity.google/download#antigravity-ide).
 2.  Baixe o instalador para Windows (arquivo com final `.exe`).
 3.  Dê dois cliques no arquivo baixado e siga o assistente de instalação padrão clicando em **Próximo** até o final.
-4.  Abra o aplicativo **Google Antigravity IDE** que foi adicionado ao seu menu Iniciar. Uma tela inicial bonita e moderna será exibida!
+4.  Abra o aplicativo **Anticaos** que foi adicionado ao seu menu Iniciar. Uma tela inicial bonita e moderna será exibida!
 
 ---
 
@@ -42,10 +42,10 @@ Para liberar a inteligência do assistente, você só precisa conectar sua conta
 
 ## Passo 3: Abrindo a sua Pasta de Trabalho ou Estudos
 
-O assistente do Antigravity trabalha sempre olhando para uma pasta específica do seu computador (essa pasta é chamada de "Workspace" ou área de trabalho):
+O assistente do Anticaos trabalha sempre olhando para uma pasta específica do seu computador (essa pasta é chamada de "Workspace" ou área de trabalho):
 
 1.  Crie uma pasta no seu computador para o seu projeto (ex: crie uma pasta chamada `MeuTCC`, `MinhasFinancas` ou `Estudos` nos seus Documentos).
-2.  No menu do Antigravity IDE, clique em **File ➔ Open Folder** (Arquivo ➔ Abrir Pasta).
+2.  No menu do Anticaos, clique em **File ➔ Open Folder** (Arquivo ➔ Abrir Pasta).
 3.  Selecione a pasta que você acabou de criar.
 4.  O assistente de IA fará uma leitura rápida do conteúdo da pasta para se situar.
 5.  **Tudo pronto!** O painel lateral de chat será ativado e você já pode começar a conversar com o seu assistente de IA e organizar o seu dia.
