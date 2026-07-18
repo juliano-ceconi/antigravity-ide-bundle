@@ -34,13 +34,17 @@ Se você utiliza a IA para projetos de trabalho ou estudos que contêm informaç
 
 ## Como Configurar o Okam Usando o Próprio Assistente
 
-Você não precisa abrir telas pretas de computador ou digitar códigos complexos. O próprio assistente do Antigravity IDE pode fazer essa configuração para você!
+Você não precisa abrir nenhuma tela técnica nem digitar códigos difíceis. O próprio Antigravity IDE instala o Okam por você — basta copiar e colar uma mensagem no chat!
 
-1. Abra a pasta do seu projeto no **Antigravity IDE**.
-2. Copie e cole o seguinte texto no chat lateral:
+1. Abra a pasta do seu projeto no **Antigravity IDE** (se ainda não fez isso, volte ao [tutorial de instalação](./tutorial-instalacao-windows.md) e siga o Passo 3).
+2. **Copie o texto abaixo** e **cole no painel de chat** (clique na caixinha de texto, pressione **Ctrl + V** e depois **Enter**):
 
 ```text
-Por favor, instale o framework Okam usando o comando "pip install okam" e depois execute "okam setup" para criar o arquivo de regras AGENTS.md e configurar as travas de segurança de dados na minha pasta. Faça tudo de forma automatizada no Windows e me mostre quando concluir.
+Por favor, instale o Okam no meu computador Windows e configure-o na pasta atual do projeto. Ele deve criar o arquivo AGENTS.md com minhas preferências básicas e ativar as proteções de segurança. Faça tudo automaticamente e me avise quando terminar.
 ```
 
-3. O assistente mostrará um card na tela pedindo sua autorização. Clique em **Aprovar** e ele fará toda a configuração nos bastidores em poucos segundos!
+3. O assistente vai analisar o pedido e mostrar um card na tela com o título **Plano de Implementação**, descrevendo o que vai ser feito.
+4. Revise o plano e clique em **Aprovar** (ou **Proceed**) para dar permissão.
+5. Aguarde. Em alguns segundos, o chat vai confirmar que o Okam está instalado e configurado na sua pasta!
+
+> 💡 **Dica:** Depois que o Okam configurar o arquivo `AGENTS.md`, abra-o e escreva suas preferências pessoais — por exemplo: *"Prefiro explicações simples"*, *"Escreva sempre em português"* ou *"Organize minhas tabelas por data"*. A IA vai ler esse arquivo toda vez que você abrir o programa.
